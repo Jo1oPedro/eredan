@@ -1,0 +1,1 @@
+file_get_contents(http://static.eredan.com/cards/web_mid/br/ttvajrY5.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found

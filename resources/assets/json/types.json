@@ -1,0 +1,2134 @@
+[
+  {
+    "id": 1,
+    "script_slug": "objet",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Item"
+      },
+      "pt_br": {
+        "name": "Item"
+      },
+      "es_es": {
+        "name": "Objeto"
+      },
+      "fr_fr": {
+        "name": "Objet"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 0
+  },
+  {
+    "id": 2,
+    "script_slug": "personnage",
+    "perso": 1,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Character"
+      },
+      "pt_br": {
+        "name": "Personagem"
+      },
+      "es_es": {
+        "name": "Personaje"
+      },
+      "fr_fr": {
+        "name": "Personnage"
+      }
+    },
+    "cadre_type": "bdc65c66b657180397a630811d2913de.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 0
+  },
+  {
+    "id": 3,
+    "script_slug": "action",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Action"
+      },
+      "pt_br": {
+        "name": "A\u00e7\u00e3o"
+      },
+      "es_es": {
+        "name": "Acci\u00f3n"
+      },
+      "fr_fr": {
+        "name": "Action"
+      }
+    },
+    "cadre_type": "255caf9c8d669262473d170d1da4cd24.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 0
+  },
+  {
+    "id": 4,
+    "script_slug": "arme",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Weapon"
+      },
+      "pt_br": {
+        "name": "Arma"
+      },
+      "es_es": {
+        "name": "Arma"
+      },
+      "fr_fr": {
+        "name": "Arme"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 5,
+    "script_slug": "sort",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Spell"
+      },
+      "pt_br": {
+        "name": "Feiti\u00e7o"
+      },
+      "es_es": {
+        "name": "Sortilegio"
+      },
+      "fr_fr": {
+        "name": "Sort"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 0
+  },
+  {
+    "id": 6,
+    "script_slug": "potion",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Potion"
+      },
+      "pt_br": {
+        "name": "Po\u00e7\u00e3o"
+      },
+      "es_es": {
+        "name": "Poci\u00f3n"
+      },
+      "fr_fr": {
+        "name": "Potion"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 7,
+    "script_slug": "parchemin",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Scroll"
+      },
+      "pt_br": {
+        "name": "Pergaminho"
+      },
+      "es_es": {
+        "name": "Pergamino"
+      },
+      "fr_fr": {
+        "name": "Parchemin"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 9,
+    "script_slug": "bijou",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Jewel"
+      },
+      "pt_br": {
+        "name": "Joia"
+      },
+      "es_es": {
+        "name": "Joya"
+      },
+      "fr_fr": {
+        "name": "Bijou"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 10,
+    "script_slug": "theurgie",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Theurgy"
+      },
+      "pt_br": {
+        "name": "Teurgia"
+      },
+      "es_es": {
+        "name": "Te\u00fargia"
+      },
+      "fr_fr": {
+        "name": "Th\u00e9urgie"
+      }
+    },
+    "cadre_type": "9ed21e517736c1f0efd02353f9c5a141.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 0
+  },
+  {
+    "id": 14,
+    "script_slug": "foi",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Faith"
+      },
+      "pt_br": {
+        "name": "F\u00e9"
+      },
+      "es_es": {
+        "name": "F\u00e9"
+      },
+      "fr_fr": {
+        "name": "Foi"
+      }
+    },
+    "cadre_type": "9ed21e517736c1f0efd02353f9c5a141.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 10
+  },
+  {
+    "id": 15,
+    "script_slug": "colere_divine",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Divine Anger"
+      },
+      "pt_br": {
+        "name": "F\u00faria Divina"
+      },
+      "es_es": {
+        "name": "C\u00f3lera Divina"
+      },
+      "fr_fr": {
+        "name": "Col\u00e8re divine"
+      }
+    },
+    "cadre_type": "9ed21e517736c1f0efd02353f9c5a141.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 10
+  },
+  {
+    "id": 16,
+    "script_slug": "destin",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Destiny"
+      },
+      "pt_br": {
+        "name": "Destino"
+      },
+      "es_es": {
+        "name": "Destino"
+      },
+      "fr_fr": {
+        "name": "Destin"
+      }
+    },
+    "cadre_type": "9ed21e517736c1f0efd02353f9c5a141.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 10
+  },
+  {
+    "id": 17,
+    "script_slug": "feu",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Fire"
+      },
+      "pt_br": {
+        "name": "Fogo"
+      },
+      "es_es": {
+        "name": "Fuego"
+      },
+      "fr_fr": {
+        "name": "Feu"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 18,
+    "script_slug": "air",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Air"
+      },
+      "pt_br": {
+        "name": "Ar"
+      },
+      "es_es": {
+        "name": "Aire"
+      },
+      "fr_fr": {
+        "name": "Air"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 19,
+    "script_slug": "eau",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Water"
+      },
+      "pt_br": {
+        "name": "\u00c1gua"
+      },
+      "es_es": {
+        "name": "Agua"
+      },
+      "fr_fr": {
+        "name": "Eau"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 20,
+    "script_slug": "terre",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Earth"
+      },
+      "pt_br": {
+        "name": "Terra"
+      },
+      "es_es": {
+        "name": "Tierra"
+      },
+      "fr_fr": {
+        "name": "Terre"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 21,
+    "script_slug": "lumiere",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Light"
+      },
+      "pt_br": {
+        "name": "Luz"
+      },
+      "es_es": {
+        "name": "Luz"
+      },
+      "fr_fr": {
+        "name": "Lumi\u00e8re"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 22,
+    "script_slug": "ombre",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Shadow"
+      },
+      "pt_br": {
+        "name": "Sombra"
+      },
+      "es_es": {
+        "name": "Sombra"
+      },
+      "fr_fr": {
+        "name": "Ombre"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 23,
+    "script_slug": "mental",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Mental"
+      },
+      "pt_br": {
+        "name": "Mental"
+      },
+      "es_es": {
+        "name": "Mental"
+      },
+      "fr_fr": {
+        "name": "Mental"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 24,
+    "script_slug": "armure",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Armor"
+      },
+      "pt_br": {
+        "name": "Armadura"
+      },
+      "es_es": {
+        "name": "Armadura"
+      },
+      "fr_fr": {
+        "name": "Armure"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 25,
+    "script_slug": "foudre",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Lightning"
+      },
+      "pt_br": {
+        "name": "Trov\u00e3o"
+      },
+      "es_es": {
+        "name": "Rayo"
+      },
+      "fr_fr": {
+        "name": "Foudre"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 26,
+    "script_slug": "draconique",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Draconic"
+      },
+      "pt_br": {
+        "name": "Drac\u00f4nico"
+      },
+      "es_es": {
+        "name": "Drac\u00f3nico"
+      },
+      "fr_fr": {
+        "name": "Draconique"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 28,
+    "script_slug": "amulette",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Amulet"
+      },
+      "pt_br": {
+        "name": "Amuleto"
+      },
+      "es_es": {
+        "name": "Amuleto"
+      },
+      "fr_fr": {
+        "name": "Amulette"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 29,
+    "script_slug": "temps",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Time"
+      },
+      "pt_br": {
+        "name": "Tempo"
+      },
+      "es_es": {
+        "name": "Tiempo"
+      },
+      "fr_fr": {
+        "name": "Temps"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 30,
+    "script_slug": "nature",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Nature"
+      },
+      "pt_br": {
+        "name": "Natureza"
+      },
+      "es_es": {
+        "name": "Naturaleza"
+      },
+      "fr_fr": {
+        "name": "Nature"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 31,
+    "script_slug": "autre",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Other"
+      },
+      "pt_br": {
+        "name": "Outro"
+      },
+      "es_es": {
+        "name": "Otro"
+      },
+      "fr_fr": {
+        "name": "Autre"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 32,
+    "script_slug": "dague",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Dagger"
+      },
+      "pt_br": {
+        "name": "Adaga"
+      },
+      "es_es": {
+        "name": "Daga"
+      },
+      "fr_fr": {
+        "name": "Dague"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 42
+  },
+  {
+    "id": 33,
+    "script_slug": "bouclier",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Shield"
+      },
+      "pt_br": {
+        "name": "Escudo"
+      },
+      "es_es": {
+        "name": "Escudo"
+      },
+      "fr_fr": {
+        "name": "Bouclier"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 34,
+    "script_slug": "lance",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Spear"
+      },
+      "pt_br": {
+        "name": "Lan\u00e7a"
+      },
+      "es_es": {
+        "name": "Lanza "
+      },
+      "fr_fr": {
+        "name": "Lance"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 35
+  },
+  {
+    "id": 35,
+    "script_slug": "arme_a_deux_mains",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Two handed "
+      },
+      "pt_br": {
+        "name": "de Duas M\u00e3os"
+      },
+      "es_es": {
+        "name": "de dos manos"
+      },
+      "fr_fr": {
+        "name": "\u00e0 deux mains"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 4
+  },
+  {
+    "id": 36,
+    "script_slug": "fleau",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Flail"
+      },
+      "pt_br": {
+        "name": "Mangual"
+      },
+      "es_es": {
+        "name": "Maza"
+      },
+      "fr_fr": {
+        "name": "Fleau"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 42
+  },
+  {
+    "id": 37,
+    "script_slug": "hache",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Axe"
+      },
+      "pt_br": {
+        "name": "Machado"
+      },
+      "es_es": {
+        "name": "Hacha"
+      },
+      "fr_fr": {
+        "name": "Hache"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 35
+  },
+  {
+    "id": 39,
+    "script_slug": "epee",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Sword"
+      },
+      "pt_br": {
+        "name": "Espada"
+      },
+      "es_es": {
+        "name": "Espada"
+      },
+      "fr_fr": {
+        "name": "Ep\u00e9e"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 42
+  },
+  {
+    "id": 40,
+    "script_slug": "hache_main",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Axe"
+      },
+      "pt_br": {
+        "name": "Machado"
+      },
+      "es_es": {
+        "name": "Hacha"
+      },
+      "fr_fr": {
+        "name": "Hache"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 42
+  },
+  {
+    "id": 41,
+    "script_slug": "baton",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Staff"
+      },
+      "pt_br": {
+        "name": "Cajado"
+      },
+      "es_es": {
+        "name": "Bast\u00f3n"
+      },
+      "fr_fr": {
+        "name": "B\u00e2ton"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 42
+  },
+  {
+    "id": 42,
+    "script_slug": "arme_a_une_main",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "One handed"
+      },
+      "pt_br": {
+        "name": "De Uma M\u00e3o"
+      },
+      "es_es": {
+        "name": "de una mano"
+      },
+      "fr_fr": {
+        "name": "\u00e0 une main"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 4
+  },
+  {
+    "id": 43,
+    "script_slug": "non_jouable",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Non-playable"
+      },
+      "pt_br": {
+        "name": "N\u00e3o Jog\u00e1vel"
+      },
+      "es_es": {
+        "name": "No jugable"
+      },
+      "fr_fr": {
+        "name": "Non jouable"
+      }
+    },
+    "cadre_type": null,
+    "can_be_foil": 0,
+    "use_in_game": 0,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 0
+  },
+  {
+    "id": 44,
+    "script_slug": "carte_xp",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Experience"
+      },
+      "pt_br": {
+        "name": "Experi\u00eancia"
+      },
+      "es_es": {
+        "name": "Experiencia"
+      },
+      "fr_fr": {
+        "name": "Exp\u00e9rience"
+      }
+    },
+    "cadre_type": "899e3b8f22828a2a09ba50386b94b720.png",
+    "can_be_foil": 0,
+    "use_in_game": 0,
+    "with_xp": 1,
+    "fond_type": "375add30a50d30bd2ab913b91492010f.jpg",
+    "id_parent": 43
+  },
+  {
+    "id": 45,
+    "script_slug": "guerre",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "war"
+      },
+      "pt_br": {
+        "name": "Guerra"
+      },
+      "es_es": {
+        "name": "de la Guerra"
+      },
+      "fr_fr": {
+        "name": "de la Guerre"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 46,
+    "script_slug": "grimoire",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Magic Book"
+      },
+      "pt_br": {
+        "name": "Livro de Magia"
+      },
+      "es_es": {
+        "name": "Libro de Magia"
+      },
+      "fr_fr": {
+        "name": "Grimoire"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 47,
+    "script_slug": "arc",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Bow"
+      },
+      "pt_br": {
+        "name": "Arco"
+      },
+      "es_es": {
+        "name": "Arco"
+      },
+      "fr_fr": {
+        "name": "Arc"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 35
+  },
+  {
+    "id": 48,
+    "script_slug": "epee2m",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Sword"
+      },
+      "pt_br": {
+        "name": "Espada"
+      },
+      "es_es": {
+        "name": "Espada"
+      },
+      "fr_fr": {
+        "name": "Ep\u00e9e"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 0,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 35
+  },
+  {
+    "id": 49,
+    "script_slug": "loterie",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Lottery"
+      },
+      "pt_br": {
+        "name": "Loteria"
+      },
+      "es_es": {
+        "name": "Loteria"
+      },
+      "fr_fr": {
+        "name": "Loterie"
+      }
+    },
+    "cadre_type": "899e3b8f22828a2a09ba50386b94b720.png",
+    "can_be_foil": 0,
+    "use_in_game": 0,
+    "with_xp": 1,
+    "fond_type": "375add30a50d30bd2ab913b91492010f.jpg",
+    "id_parent": 43
+  },
+  {
+    "id": 50,
+    "script_slug": "griffes",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Claws"
+      },
+      "pt_br": {
+        "name": "Garras"
+      },
+      "es_es": {
+        "name": "Garras"
+      },
+      "fr_fr": {
+        "name": "Griffes"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 42
+  },
+  {
+    "id": 51,
+    "script_slug": "nourriture",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Food"
+      },
+      "pt_br": {
+        "name": "Comida"
+      },
+      "es_es": {
+        "name": "Alimento"
+      },
+      "fr_fr": {
+        "name": "Nourriture"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 52,
+    "script_slug": "vetement",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Clothing"
+      },
+      "pt_br": {
+        "name": "Roupas"
+      },
+      "es_es": {
+        "name": "Vestimenta"
+      },
+      "fr_fr": {
+        "name": "V\u00eatement"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 53,
+    "script_slug": "outil",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Tool"
+      },
+      "pt_br": {
+        "name": "Ferramenta"
+      },
+      "es_es": {
+        "name": "Herramienta"
+      },
+      "fr_fr": {
+        "name": "Outil"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 54,
+    "script_slug": "decorations",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Decoration"
+      },
+      "pt_br": {
+        "name": "Decora\u00e7\u00e3o"
+      },
+      "es_es": {
+        "name": "Decoraci\u00f3n"
+      },
+      "fr_fr": {
+        "name": "D\u00e9coration"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 0
+  },
+  {
+    "id": 55,
+    "script_slug": "familier",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Pet"
+      },
+      "pt_br": {
+        "name": "Pet"
+      },
+      "es_es": {
+        "name": "Mascota"
+      },
+      "fr_fr": {
+        "name": "Familier"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 0
+  },
+  {
+    "id": 56,
+    "script_slug": "foil",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Foil"
+      },
+      "pt_br": {
+        "name": "Hologr\u00e1fica"
+      },
+      "es_es": {
+        "name": "Foil"
+      },
+      "fr_fr": {
+        "name": "Foil"
+      }
+    },
+    "cadre_type": "899e3b8f22828a2a09ba50386b94b720.png",
+    "can_be_foil": 0,
+    "use_in_game": 0,
+    "with_xp": 1,
+    "fond_type": "375add30a50d30bd2ab913b91492010f.jpg",
+    "id_parent": 43
+  },
+  {
+    "id": 57,
+    "script_slug": "arme_a_poudre",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Powder"
+      },
+      "pt_br": {
+        "name": "P\u00f3lvora"
+      },
+      "es_es": {
+        "name": "P\u00f3lvora"
+      },
+      "fr_fr": {
+        "name": "\u00e0 poudre"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 42
+  },
+  {
+    "id": 58,
+    "script_slug": "tresor",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Treasure"
+      },
+      "pt_br": {
+        "name": "Tesouro"
+      },
+      "es_es": {
+        "name": "Tesoro"
+      },
+      "fr_fr": {
+        "name": "Tr\u00e9sor"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 0,
+    "use_in_game": 0,
+    "with_xp": 0,
+    "fond_type": "df213a638d702d025f2dbfe177411aea.png",
+    "id_parent": 43
+  },
+  {
+    "id": 59,
+    "script_slug": "arme_a_poudre_a_deux_mains",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "powder"
+      },
+      "pt_br": {
+        "name": "p\u00f3lvora"
+      },
+      "es_es": {
+        "name": "de Polvora"
+      },
+      "fr_fr": {
+        "name": "\u00e0 poudre"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 35
+  },
+  {
+    "id": 60,
+    "script_slug": "nehant",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Nehantic"
+      },
+      "pt_br": {
+        "name": "Ne\u00e2ntico"
+      },
+      "es_es": {
+        "name": "de Nehant"
+      },
+      "fr_fr": {
+        "name": "de N\u00e9hant"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 61,
+    "script_slug": "corruption",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Corruption"
+      },
+      "pt_br": {
+        "name": "Corrup\u00e7\u00e3o"
+      },
+      "es_es": {
+        "name": "Corrupci\u00f3n"
+      },
+      "fr_fr": {
+        "name": "Corruption"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 60
+  },
+  {
+    "id": 62,
+    "script_slug": "familier_volk",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Volk"
+      },
+      "pt_br": {
+        "name": "Volk"
+      },
+      "es_es": {
+        "name": "Volk"
+      },
+      "fr_fr": {
+        "name": "Volk"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 55
+  },
+  {
+    "id": 63,
+    "script_slug": "baguette_du_proelior_magus",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Proelior Magus Wand"
+      },
+      "pt_br": {
+        "name": "A Varinha Proelior Magus"
+      },
+      "es_es": {
+        "name": "Varilla de Proelior Magus"
+      },
+      "fr_fr": {
+        "name": "Baguette du Proelior Magus"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 54
+  },
+  {
+    "id": 67,
+    "script_slug": "element",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Elemental"
+      },
+      "pt_br": {
+        "name": "Elemental"
+      },
+      "es_es": {
+        "name": "Elemento"
+      },
+      "fr_fr": {
+        "name": "El\u00e9ment"
+      }
+    },
+    "cadre_type": "255caf9c8d669262473d170d1da4cd24.png",
+    "can_be_foil": 0,
+    "use_in_game": 1,
+    "with_xp": 0,
+    "fond_type": "2e2f2956dcc01ecffa99f1d8d7279178.jpg",
+    "id_parent": 0
+  },
+  {
+    "id": 68,
+    "script_slug": "carte_a_jouer",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Pokeredan Cards"
+      },
+      "pt_br": {
+        "name": "Cartas Pokeredan"
+      },
+      "es_es": {
+        "name": "Cartas de Pokeredan"
+      },
+      "fr_fr": {
+        "name": "Cartes de Pokeredan"
+      }
+    },
+    "cadre_type": null,
+    "can_be_foil": 0,
+    "use_in_game": 0,
+    "with_xp": 0,
+    "fond_type": null,
+    "id_parent": 0
+  },
+  {
+    "id": 69,
+    "script_slug": "larbin_demoniaque",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Demonic Servant"
+      },
+      "pt_br": {
+        "name": "Servo Demon\u00edaco"
+      },
+      "es_es": {
+        "name": "Sirviente Demon\u00edaco"
+      },
+      "fr_fr": {
+        "name": "Larbin d\u00e9moniaque"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 0,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 55
+  },
+  {
+    "id": 70,
+    "script_slug": "quete",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Quest"
+      },
+      "pt_br": {
+        "name": "Miss\u00e3o"
+      },
+      "es_es": {
+        "name": "Misi\u00f3n"
+      },
+      "fr_fr": {
+        "name": "Qu\u00eate"
+      }
+    },
+    "cadre_type": "255caf9c8d669262473d170d1da4cd24.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 3
+  },
+  {
+    "id": 71,
+    "script_slug": "banniere",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Banner"
+      },
+      "pt_br": {
+        "name": "Estandarte"
+      },
+      "es_es": {
+        "name": "Estandarte"
+      },
+      "fr_fr": {
+        "name": "Banni\u00e8re"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 0,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 73,
+    "script_slug": "evenement",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Event"
+      },
+      "pt_br": {
+        "name": "Evento"
+      },
+      "es_es": {
+        "name": "Evento"
+      },
+      "fr_fr": {
+        "name": "Ev\u00e9nement"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 0,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 74,
+    "script_slug": "guem",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Guem"
+      },
+      "pt_br": {
+        "name": "Guem"
+      },
+      "es_es": {
+        "name": "de Guem"
+      },
+      "fr_fr": {
+        "name": "de Guem"
+      }
+    },
+    "cadre_type": "7b3c7b2bcf7fa50225c1a4d501fb0c14.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 5
+  },
+  {
+    "id": 75,
+    "script_slug": "power_up",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Eredan's Favor"
+      },
+      "pt_br": {
+        "name": "Favor Eredan"
+      },
+      "es_es": {
+        "name": "Superpoder de Eredan"
+      },
+      "fr_fr": {
+        "name": "Faveur d'Eredan"
+      }
+    },
+    "cadre_type": "bc29ca3274dc0c22b3d5060c3c72ee1c.png",
+    "can_be_foil": 0,
+    "use_in_game": 0,
+    "with_xp": 0,
+    "fond_type": null,
+    "id_parent": 0
+  },
+  {
+    "id": 76,
+    "script_slug": "magique",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Magic"
+      },
+      "pt_br": {
+        "name": "M\u00e1gico"
+      },
+      "es_es": {
+        "name": "M\u00e1gica"
+      },
+      "fr_fr": {
+        "name": "Magique"
+      }
+    },
+    "cadre_type": "255caf9c8d669262473d170d1da4cd24.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 55
+  },
+  {
+    "id": 77,
+    "script_slug": "protecteur",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Protective"
+      },
+      "pt_br": {
+        "name": "Defensivo"
+      },
+      "es_es": {
+        "name": "Protectora"
+      },
+      "fr_fr": {
+        "name": "Protecteur"
+      }
+    },
+    "cadre_type": "255caf9c8d669262473d170d1da4cd24.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 55
+  },
+  {
+    "id": 78,
+    "script_slug": "offensif",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Offensive"
+      },
+      "pt_br": {
+        "name": "Ofensivo"
+      },
+      "es_es": {
+        "name": "Ofensiva"
+      },
+      "fr_fr": {
+        "name": "Offensif"
+      }
+    },
+    "cadre_type": "255caf9c8d669262473d170d1da4cd24.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 55
+  },
+  {
+    "id": 79,
+    "script_slug": "masse2m",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Sledgehammer"
+      },
+      "pt_br": {
+        "name": "Marreta"
+      },
+      "es_es": {
+        "name": "Alm\u00e1dena"
+      },
+      "fr_fr": {
+        "name": "Masse"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 35
+  },
+  {
+    "id": 80,
+    "script_slug": "runique",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Runic"
+      },
+      "pt_br": {
+        "name": "R\u00fanico"
+      },
+      "es_es": {
+        "name": "R\u00fanico"
+      },
+      "fr_fr": {
+        "name": "Runique"
+      }
+    },
+    "cadre_type": "9ed21e517736c1f0efd02353f9c5a141.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 10
+  },
+  {
+    "id": 81,
+    "script_slug": "rune",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Rune"
+      },
+      "pt_br": {
+        "name": "Runa"
+      },
+      "es_es": {
+        "name": "Runa"
+      },
+      "fr_fr": {
+        "name": "Rune"
+      }
+    },
+    "cadre_type": "899e3b8f22828a2a09ba50386b94b720.png",
+    "can_be_foil": 1,
+    "use_in_game": 0,
+    "with_xp": 0,
+    "fond_type": "c7c6d4aa38da6e0115f2569d8dfd3656.jpg",
+    "id_parent": 43
+  },
+  {
+    "id": 82,
+    "script_slug": "morte",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Necrosis"
+      },
+      "pt_br": {
+        "name": "Necrose"
+      },
+      "es_es": {
+        "name": "Necrosis"
+      },
+      "fr_fr": {
+        "name": "N\u00e9crose"
+      }
+    },
+    "cadre_type": "cb929cb20b43403cf01a99420ce1acf4.png",
+    "can_be_foil": 0,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 3
+  },
+  {
+    "id": 83,
+    "script_slug": "marteau",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Hammer "
+      },
+      "pt_br": {
+        "name": "Martelo"
+      },
+      "es_es": {
+        "name": "Martillo"
+      },
+      "fr_fr": {
+        "name": "Marteau"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 42
+  },
+  {
+    "id": 84,
+    "script_slug": "pierre_coeur",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Stone-heart"
+      },
+      "pt_br": {
+        "name": "Pedra-Cora\u00e7\u00e3o"
+      },
+      "es_es": {
+        "name": "Piedra-Coraz\u00f3n"
+      },
+      "fr_fr": {
+        "name": "Pierre-coeur"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 9
+  },
+  {
+    "id": 85,
+    "script_slug": "fleche",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Arrow "
+      },
+      "pt_br": {
+        "name": "Flecha"
+      },
+      "es_es": {
+        "name": "Flecha"
+      },
+      "fr_fr": {
+        "name": "Fl\u00e8che"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  },
+  {
+    "id": 86,
+    "script_slug": "necrose_griffe",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Necrosis"
+      },
+      "pt_br": {
+        "name": "Necrose"
+      },
+      "es_es": {
+        "name": "Necrosis"
+      },
+      "fr_fr": {
+        "name": "Necrose"
+      }
+    },
+    "cadre_type": "cb929cb20b43403cf01a99420ce1acf4.png",
+    "can_be_foil": 0,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 50
+  },
+  {
+    "id": 87,
+    "script_slug": "necrose_bouclier",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Necrosis"
+      },
+      "pt_br": {
+        "name": "Necrose"
+      },
+      "es_es": {
+        "name": "Necrosis"
+      },
+      "fr_fr": {
+        "name": "Necrose"
+      }
+    },
+    "cadre_type": "cb929cb20b43403cf01a99420ce1acf4.png",
+    "can_be_foil": 0,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 33
+  },
+  {
+    "id": 88,
+    "script_slug": "note",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Musical Note"
+      },
+      "pt_br": {
+        "name": "Nota Musical"
+      },
+      "es_es": {
+        "name": "Nota"
+      },
+      "fr_fr": {
+        "name": "Note"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 0,
+    "use_in_game": 1,
+    "with_xp": 0,
+    "fond_type": "df213a638d702d025f2dbfe177411aea.png",
+    "id_parent": 1
+  },
+  {
+    "id": 89,
+    "script_slug": "casque",
+    "perso": 0,
+    "persistant": 1,
+    "labels": {
+      "en_us": {
+        "name": "Helmet"
+      },
+      "pt_br": {
+        "name": "Elmo"
+      },
+      "es_es": {
+        "name": "Casco"
+      },
+      "fr_fr": {
+        "name": "Casque"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 52
+  },
+  {
+    "id": 90,
+    "script_slug": "melodie",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Melody"
+      },
+      "pt_br": {
+        "name": "Melodia"
+      },
+      "es_es": {
+        "name": "Melodia"
+      },
+      "fr_fr": {
+        "name": "M\u00e9lodie"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 0,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": "072a8eeec323678a5bdc7126540798d7.jpg",
+    "id_parent": 0
+  },
+  {
+    "id": 91,
+    "script_slug": "orbe",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Orb"
+      },
+      "pt_br": {
+        "name": "Orbe"
+      },
+      "es_es": {
+        "name": "Orbe"
+      },
+      "fr_fr": {
+        "name": "Orbe"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": "072a8eeec323678a5bdc7126540798d7.jpg",
+    "id_parent": 1
+  },
+  {
+    "id": 93,
+    "script_slug": "pantin",
+    "perso": 0,
+    "persistant": 0,
+    "labels": {
+      "en_us": {
+        "name": "Puppet"
+      },
+      "pt_br": {
+        "name": "Marionete"
+      },
+      "es_es": {
+        "name": "T\u00edtere"
+      },
+      "fr_fr": {
+        "name": "Pantin"
+      }
+    },
+    "cadre_type": "85a61107e0295cf531ba8d3bc05da18a.png",
+    "can_be_foil": 1,
+    "use_in_game": 1,
+    "with_xp": 1,
+    "fond_type": null,
+    "id_parent": 1
+  }
+]
