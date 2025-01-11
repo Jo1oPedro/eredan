@@ -17,7 +17,7 @@ return new class extends Migration
             $table->longText("description");
             $table->tinyInteger("level");
             $table->string("serie_id");
-            $table->string("type_id");
+            $table->foreignId("type_id")->references("eredan_type_id")->on("types")->nullOnDelete();
             $table->string("rare_id");
             $table->boolean("evolution");
             $table->string("duree");

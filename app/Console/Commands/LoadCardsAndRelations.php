@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Card;
 use App\Models\Label;
+use App\Models\Type;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;
 
@@ -30,8 +31,6 @@ class LoadCardsAndRelations extends Command
     {
         $cardsJson = file_get_contents(base_path() . "/resources/assets/json/cards.json");
         $cardsJson = json_decode($cardsJson, true);
-
-        $x = 0;
 
         foreach($cardsJson as $key => $cardJson) {
             try {
@@ -78,20 +77,15 @@ class LoadCardsAndRelations extends Command
             $englishDescription = $cardJson["labels"]["en_us"]["description"];
             unset($cardJson["labels"]["en_us"]);
 
-            $firstKey = false;
-            $lastKey = false;
-
-            if($key === 0) {
-                $firstKey = true;
-            }
+            $lastRow = false;
 
             if($key === count($cardsJson) - 1) {
-                $lastKey = true;
+                $lastRow = true;
             }
 
             foreach($cardJson["labels"] as $locale => $label) {
-                $this->writeTranslation($englishName, $label["name"], $locale, $firstKey, $lastKey);
-                $this->writeTranslation($englishDescription, $label["description"], $locale, $firstKey, $lastKey);
+                $this->writeTranslation($englishName, $label["name"], $locale);
+                $this->writeTranslation($englishDescription, $label["description"], $locale, $lastRow);
             }
         }
     }
@@ -111,7 +105,7 @@ class LoadCardsAndRelations extends Command
         return preg_replace('/[^A-Za-z0-9\-]/', '', $string);
     }
 
-    private function writeTranslation(string $original, string $translation, string $locale, bool $firstRow = false, bool $lastRow = false)
+    private function writeTranslation(string $original, string $translation, string $locale, bool $lastRow = false)
     {
         if(strpos($original, "\r") !== false || strpos($translation, "\r") !== false) {
             $original = str_replace(["\r", '"'], ["\\r", "'"], $original);
@@ -123,11 +117,13 @@ class LoadCardsAndRelations extends Command
             $translation = str_replace(["\n", '"'], ["\\n", "'"], $translation);
         }
 
-        $originalAndTranslation = "    \"$original\":\"$translation\"" . PHP_EOL;
+        $originalAndTranslation = "    \"$original\":\"$translation\"";
 
         if(!$lastRow) {
             $originalAndTranslation .= ",";
         }
+
+        $originalAndTranslation .=  PHP_EOL;
 
         $locale = match($locale) {
             "pt_br" => "pt_br",
@@ -135,14 +131,11 @@ class LoadCardsAndRelations extends Command
             "fr_fr" => "fr"
         };
 
-        if($firstRow) {
-            $this->writeRow("{" . PHP_EOL, $locale);
-        }
-
         $this->writeRow($originalAndTranslation, $locale, FILE_APPEND);
 
         if($lastRow) {
-            $this->writeRow(PHP_EOL . "}", $locale, FILE_APPEND);
+
+            $this->writeRow("}", $locale, FILE_APPEND);
         }
     }
 
