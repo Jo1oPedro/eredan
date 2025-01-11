@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('cards', function (Blueprint $table) {
             $table->id();
+            $table->string("name");
+            $table->longText("description");
             $table->tinyInteger("level");
             $table->string("serie_id");
             $table->string("type_id");
@@ -20,11 +22,11 @@ return new class extends Migration
             $table->boolean("evolution");
             $table->string("duree");
             $table->string("properties");
-            $table->string("baume_de_soin");
-            $table->timestamps("dern_modification");
+            $table->string("script_slug");
+            $table->timestamp("dern_modification");
             $table->string("filename");
-            $table->timestamps("date_sortie");
-            $table->string("model_id");
+            $table->timestamp("date_sortie")->nullable();
+            $table->string("model_id")->nullable();
             $table->string("sex")->nullable();
             $table->string("life")->nullable();
             $table->string("base_attack")->nullable();
@@ -32,15 +34,15 @@ return new class extends Migration
             $table->string("defense")->nullable();
             $table->string("spirit")->nullable();
             $table->string("all_classes")->nullable();
-            $table->string("max_runes")->nullable();
+            $table->tinyInteger("max_runes")->default(0);
             $table->string("personal");
             $table->string("persistant");
             $table->string("nb_slot");
-            $table->string("id_reedition");
+            $table->string("id_reedition")->nullable();
             $table->string("illustration");
             $table->string("illustration_illustrator");
-            $table->string("background");
-            $table->string("background_illustrator");
+            $table->string("background")->nullable();
+            $table->string("background_illustrator")->nullable();
             $table->string("frame_type");
             $table->string("background_type")->nullable();
             //$table->string("associations"); array
